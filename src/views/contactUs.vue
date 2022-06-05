@@ -6,7 +6,7 @@ import Hero from "../components/Hero.vue";
     <Hero
       title="CONTACT US"
       desc="Questions? We have the answers!"
-      img="about-hero"
+      img="contact-hero.png"
     />
   </div>
   <img src="" alt="">
