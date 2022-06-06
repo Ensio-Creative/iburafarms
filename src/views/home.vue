@@ -29,7 +29,7 @@ import Hero from "../components/Hero.vue";
       <div class="lg:w-3/5 bg-cream ">
         <img class="absolute lg:w-2/6 w-5/6 lg:left-28 lg:top-12 top-64 left-8" src="../assets/third-home.png" alt="">
       </div>
-      <div class="w-full bg-green lg:p-32 p-8 lg:pb-0 pb-40 lg:py-44">
+      <div class="w-full bg-green lg:p-32 p-8 pb-40 lg:py-44">
         <div class="lg:text-2xl text-lg text-light text-sans my-3">
           BUSINESS AREAS
         </div>

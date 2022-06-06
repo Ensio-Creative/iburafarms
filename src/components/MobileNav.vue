@@ -55,7 +55,7 @@ const openNav = () => {
 };
 const closeNav = () => {
   state.open = false;
-  console.log("Fired");
+  // console.log("Fired");
 };
 </script>
 
