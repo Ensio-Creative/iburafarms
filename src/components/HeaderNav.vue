@@ -17,7 +17,7 @@
         </div>
         <div class="px-4">
           <router-link to="contact-us">
-            Contact
+            Contact Us
           </router-link>
         </div>
       </div>

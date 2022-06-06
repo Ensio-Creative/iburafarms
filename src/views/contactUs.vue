@@ -28,14 +28,19 @@ import Hero from "../components/Hero.vue";
         </div>
       </div>
       <div class="w-full">
-        <img src="../assets/map.png" alt="">
+        <img src="../assets/map.png" alt="" />
         <div class="bg-cream p-6 text-green text-sans">
           <div class="text-base">
             Block 30C, <br />
             Brains and Hammers City Estate, <br />
             Life Camp, Abuja
           </div>
-          <div class="text-lg font-black mt-5">OPEN IN MAPS</div>
+          <a
+            href="https://www.google.com/maps/search/Block+30C,+Brains+and+Hammers+City+Estate,+Life+Camp,+Abuja/@9.0905996,7.381295,17z"
+            target="extend"
+          >
+            <div class="text-lg font-black mt-5">OPEN IN MAPS</div>
+          </a>
         </div>
       </div>
     </div>

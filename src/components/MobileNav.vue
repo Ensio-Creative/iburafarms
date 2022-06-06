@@ -35,7 +35,7 @@
             <router-link to="/business-areas"> Business Areas </router-link>
           </div>
           <div class="py-1">
-            <router-link to="contact-us"> Contact </router-link>
+            <router-link to="contact-us"> Contact Us</router-link>
           </div>
         </div>
       </div>
