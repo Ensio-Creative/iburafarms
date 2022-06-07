@@ -2,7 +2,7 @@
   <div class="lg:flex">
     <div class="w-full lg:px-20 px-6 lg:py-0 py-16 bg-green">
       <div class="lg:my-44">
-        <div class="lg:text-2xl text-base mb-1 text-light text-sans">{{ title }}</div>
+        <div class="lg:text-lg text-base mb-1 text-light text-sans">{{ title }}</div>
         <div
           class="
             lg:text-5xl

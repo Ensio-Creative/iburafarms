@@ -4,8 +4,8 @@
 <template>
   <div>
     <div class="flex justify-between p-6 px-20">
-      <div><img src="../assets/logo.png" alt="" /></div>
-      <div class="flex justify-between pt-2">
+      <div><img class="w-44" src="../assets/logo.svg" alt="" /></div>
+      <div class="flex justify-between pt-2 text-green">
         <div class="px-4">
           <router-link to="/"> Home </router-link>
         </div>

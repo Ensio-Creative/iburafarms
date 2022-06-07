@@ -1,5 +1,8 @@
 <script setup>
 import Hero from "../components/Hero.vue";
+
+document.title = 'About - Ibura Farms';
+
 </script>
 <template>
   <div>
@@ -10,7 +13,7 @@ import Hero from "../components/Hero.vue";
     />
     <div class="lg:px-20 lg:my-20 lg:flex relative mb-56">
       <div class="bg-cream lg:w-8/12 lg:p-10 lg:pl-28 p-8 pb-32 lg:py-40">
-        <div class="tlg:ext-4xl text-xl font-bold text-sans">Our Company</div>
+        <div class="lg:text-2xl text-green text-xl font-bold text-sans">Our Company</div>
         <div class="text-sans text-green lg:w-9/12 lg:text-base text-sm my-4">
           Ibura Farms is an Agri based company that is transforming and bridging
           the gap in growing sustainable Agri products and services with an

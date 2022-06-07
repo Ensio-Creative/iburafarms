@@ -2,7 +2,7 @@
   <div class="content h-[60px] w-full bg-white">
     <div class="container pt-4 flex justify-between">
       <router-link to="/">
-        <img class="w-32 lg:w-32 ml-6" src="../assets/logo.png" alt="" />
+        <img class="w-40 lg:w-32 ml-6" src="../assets/logo.svg" alt="" />
       </router-link>
       <div @click="openNav" class="flex burger mt-2 mr-6">
         <img class="w-8 h-4 lg:w-32" src="../assets/bar.png" alt="" />
@@ -12,7 +12,7 @@
       <div class="lg:mx-20 mx-8 flex justify-between">
         <router-link to="/">
           <!-- <img class="w-24 lg:w-32" src="../static/logo-black.png" alt="" /> -->
-          <img class="w-40" src="../assets/logo.png" alt="" />
+          <img class="w-40" src="../assets/logo.svg" alt="" />
         </router-link>
         <a
           href="javascript:void(0)"
@@ -26,16 +26,20 @@
           class="normal-case lg:text-8xl text-2xl lg:flex font-inter text-black"
         >
           <div class="py-1">
-            <router-link to="/"> Home </router-link>
+            <router-link to="/" @click="closeNav"> Home </router-link>
           </div>
           <div class="py-1">
-            <router-link to="/about"> About </router-link>
+            <router-link to="/about" @click="closeNav"> About </router-link>
           </div>
           <div class="py-1">
-            <router-link to="/business-areas"> Business Areas </router-link>
+            <router-link to="/business-areas" @click="closeNav">
+              Business Areas
+            </router-link>
           </div>
           <div class="py-1">
-            <router-link to="contact-us"> Contact Us</router-link>
+            <router-link to="contact-us" @click="closeNav">
+              Contact Us</router-link
+            >
           </div>
         </div>
       </div>

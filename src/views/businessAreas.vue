@@ -1,5 +1,6 @@
 <script setup>
 import Hero from "../components/Hero.vue";
+document.title = "Business - Ibura Farms";
 
 const businesses = [
   {
@@ -36,17 +37,19 @@ const businesses = [
       desc="Our business cut across food and agricultural products for both local and international markets"
       img="business-area-hero.png"
     />
-    <div class="lg:flex lg:p-20 p-8 flex-wrap">
+    <div class="lg:flex lg:p-20 p-8 py-12 flex-wrap">
       <div
         v-for="(business, index) in businesses"
         :key="index"
-        class="bg-cream lg:w-96 lg:m-1 lg:mb-0 mb-8"
+        class="lg:w-96 lg:m-1 lg:mb-0 mb-8"
       >
-        <img :src="'/img/buisness/' + business.img" alt="" />
-        <div class="text-green text-sans p-4 text-center py-8">
-          <div class="text-xl font-bold mb-3">{{ business.name }}</div>
-          <div class="text-sm">
-            {{ business.desc }}
+        <div class="bg-cream lg:m-3">
+          <img :src="'/img/buisness/' + business.img" alt="" />
+          <div class="text-green text-sans p-4 text-center py-8 lg:h-52">
+            <div class="text-xl font-bold mb-3">{{ business.name }}</div>
+            <div class="text-sm px-8">
+              {{ business.desc }}
+            </div>
           </div>
         </div>
       </div>

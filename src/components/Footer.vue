@@ -3,7 +3,7 @@
     <div class="lg:text-4xl text-2xl text-roboto font-bold">
       Wants to know more?
     </div>
-    <div class="text-base mx-auto lg:w-80 w-64 my-5 text-sans">
+    <div class="text-lg mx-auto lg:w-80 w-64 my-5 text-sans">
       Get in touch with Ibura Farms and we will respond to you quickly.
     </div>
     <div class="my-3">
@@ -47,7 +47,7 @@
     <div class="lg:flex justify-between text-xs px-20 lg:py-8 py-6 text-sans">
       <div>© Copyright 2022 Ibura Farms</div>
       <div>
-        Design & Development:
+        Design :
         <a href="https://ensiocreative.com/" target="extend">
           Ensio Creative
         </a>
