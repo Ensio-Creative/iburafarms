@@ -16,9 +16,16 @@ document.title = "Contact - Ibura Farms";
           <div class="mb-5">
             <div class="text-lg font-black mb-1">CORPORATE OFFICE</div>
             <div class="text-base">
-              Block 30C, <br />
-              Brains and Hammers City Estate, <br />
-              Life Camp, Abuja
+              36, Inuwa Wada Crescent <br />
+              Off T. O. S. Benson Crescent, <br />
+              Utako, Abuja
+            </div>
+          </div>
+          <div class="mb-5">
+            <div class="text-lg font-black mb-1">HEAD OFFICE</div>
+            <div class="text-base">
+              1 Ejimkonye Close, Ibura Agbobu, <br />
+              Okigwe, Imo State
             </div>
           </div>
           <div class="mb-5">
@@ -35,9 +42,9 @@ document.title = "Contact - Ibura Farms";
         <img src="../assets/map.png" alt="" />
         <div class="bg-cream p-6 text-green text-sans">
           <div class="text-base">
-            Block 30C, <br />
-            Brains and Hammers City Estate, <br />
-            Life Camp, Abuja
+            36, Inuwa Wada Crescent <br />
+            Off T. O. S. Benson Crescent, <br />
+            Utako, Abuja
           </div>
           <a
             href="https://www.google.com/maps/search/Block+30C,+Brains+and+Hammers+City+Estate,+Life+Camp,+Abuja/@9.0905996,7.381295,17z"
